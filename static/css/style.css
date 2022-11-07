@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+* {
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #443E53;
+}
+
+button {
+    background-color: #7D7199;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #F6F7FC;
+}
+
+button:hover {
+    background-color: #443E53;
+    color: #719972;
+}
+
+img {
+    width: 25%;
+}
+
+.region-login {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    background-color: #F6F7FC;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.region-login img {
+    margin-top: 30px;
+    top: 0;
+    max-width: 200px;
+}
+
+.separador {
+    background-color: #443E53;
+    width: 30%;
+    height: 0.3%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------*/
+
+
+/*-------------------------RESPONSIVE-----------------------------*/
+
+
+/*----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------*/
+
+@media (max-width: 900px) {
+    .region-login img {
+        /* margin-top: 0px; */
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .region-login h1 {
+        font-size: 24px;
+    }
+    .region-login h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .region-login img {
+        /* margin-top: 0px; */
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .region-login h1 {
+        font-size: 24px;
+    }
+    .region-login h5 {
+        font-size: 16px;
+    }
+    .separador {
+        background-color: #443E53;
+        width: 100px;
+        height: 0.3%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fondo-login {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+        height: 65%;
+        background-color: #F6F7FC;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .region-login img {
+        /* margin-top: 0px; */
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .region-login h1 {
+        font-size: 19px;
+    }
+    .region-login h5 {
+        font-size: 13px;
+    }
+    a {
+        font-size: 15px;
+    }
+    .separador {
+        background-color: #443E53;
+        width: 100px;
+        height: 0.3%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
